@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project-ca2-etl"
+version = "1.0.0"
+
+[tool.dagster]
+module_name = "src.pipelines"
